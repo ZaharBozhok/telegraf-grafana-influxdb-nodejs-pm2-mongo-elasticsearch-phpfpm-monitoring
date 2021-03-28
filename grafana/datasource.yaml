@@ -1,0 +1,22 @@
+apiVersion: 1
+
+datasources:
+  - name: InfluxDB_v1
+    type: influxdb
+    access: proxy
+    database: telegraf
+    url: http://influxdb:8086
+    jsonData:
+      httpMode: GET
+  - name: InfluxDB_v2
+    type: influxdb
+    access: proxy
+    url: http://influxdb_v2:8086
+    secureJsonData:
+      token: 7BGnaU5oHARZ3P8wNIRcJW1_5Cp-_ArY6P5aV4NxB_EXXZqvKZiPtaL3KHkNYB-l0NJ1YTUUmpyf3xrwpGNTOA==
+    jsonData:
+      version: Flux
+      organization: admin-org
+      defaultBucket: telegraf
+      tlsSkipVerify: true
+    
