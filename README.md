@@ -29,6 +29,8 @@ Nginx shoulnd't work untill you change nginx ip address in telegraf/telegraf.con
 
 ### Reference repositories and links
 [Laradock](http://laradock.io/http:// "Laradock")
-[Docker-influxdb-grafana](https://github.com/nicolargo/docker-influxdb-grafana "Docker-influxdb-grafana")
+
+[Docker-influxdb-grafana](https://github.com/nicolargo/docker-influxdb-grafana Docker-influxdb-grafana")
+
 [PM2 + grafana + influxdb](https://medium.com/@nikunjd.np/pm2-microservices-monitoring-with-grafana-influxdb-54fb6f8b5d2d)
 
