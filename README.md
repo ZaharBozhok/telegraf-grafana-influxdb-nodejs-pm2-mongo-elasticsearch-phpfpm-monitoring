@@ -24,7 +24,7 @@ In order to make grafana work with influxdb_v2 you have to go to datasources and
 ### Importing already created dashboard for all this stuff
 Import on grafana admin panel dashboard and just paste whole grafana/dashboard.json
 
-### "Fixing" nginx strange behvior
+### 🤢 "Fixing" nginx strange behvior
 Nginx shoulnd't work untill you change nginx ip address in telegraf/telegraf.conf, I specified ip of my local network cause when accessing it via docker network nginx responses with internal server error ¯\\\_(ツ)_/¯.
 
 ### Reference repositories and links
