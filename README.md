@@ -13,15 +13,15 @@
 - elasticsearch
 - nodejs + pm2
 
-### How to make telegraf with influxdb_v2 ❔
+### How to make telegraf with influxdb_v2 ℹ️
 For learning purpouse created monitoring panels for pm2 using flux which is supported only by influxdb_v2
 
 So in order to make telegraf work with inflxudb_v2 you have to generate token for telegraf in influxdb_v2 admin panel and create bucket named 'telegraf', then insert token in telegraf/env.telegraf
 
-### How to make grafana work with influxdb_v2 ❔
+### How to make grafana work with influxdb_v2 ℹ️
 In order to make grafana work with influxdb_v2 you have to go to datasources and configure token there also, you can use admin's for learning purpose
 
-### Importing already created dashboard for all this stuff ❔
+### Importing already created dashboard for all this stuff ℹ️
 Import on grafana admin panel dashboard and just paste whole grafana/dashboard.json
 
 ### "Fixing" nginx strange behvior 🤢
